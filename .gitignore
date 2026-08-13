@@ -1,0 +1,4 @@
+/node_modules/
+playwright-report/**/*.md
+test-results/**/*.md
+user.js
