@@ -4,7 +4,7 @@ const { userLogin, userPassword } = require("../user.js");
 test("Valid login page", async () => {
     const browser = await chromium.launch();
     const page = await browser.newPage();
-    
+
     await page.goto("https://netology.ru/?modal=sign_in");
     await page.screenshot({
         path: "test-results/screenshots/test_validLogin/login_page.png",

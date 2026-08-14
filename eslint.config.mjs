@@ -10,7 +10,7 @@ export default defineConfig([
         extends: ["js/recommended"],
         rules: {
             //'linebreak-style': ['error', 'unix'], // символ(ы) конца строки
-            quotes: ["error", "single"], // использовать одинарные кавычки
+            quotes: ["error", "double"], // использовать одинарные кавычки
             semi: ["error", "always"], // точка с запятой в конце операторов
             "no-debugger": "off", // без отладчика
             "no-undef": "off", // запретить использование необъявленных переменных
