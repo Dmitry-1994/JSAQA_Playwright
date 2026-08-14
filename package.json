@@ -1,13 +1,22 @@
 {
-  "name": "jsaqa_playwright",
+  "name": "playwright",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "playwright test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitry-1994/JSAQA_Playwright.git"
+  },
+  "keywords": [],
   "author": "Tarasov Dmitry",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmitry-1994/JSAQA_Playwright/issues"
+  },
+  "homepage": "https://github.com/Dmitry-1994/JSAQA_Playwright#readme",
+  "description": "",
   "devDependencies": {
     "@playwright/test": "^1.62.1",
     "@types/node": "^26.2.0",
